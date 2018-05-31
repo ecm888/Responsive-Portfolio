@@ -1,0 +1,180 @@
+div.container {
+    width: 960px;
+    display: block;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #dddddd;
+    padding: 9.5px
+  }
+
+
+ body {
+    background: url(../bootcamp/images/background.png);
+}
+
+
+ h1 {
+   color: #4aaaa5;
+
+}
+
+ 
+font {
+   color: #777777;
+   font-family: Arial;
+}
+
+
+.header {
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 20px 10px;
+  border-color: #cccccc;
+  font-family: Times;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: auto;
+  border-bottom: 2px solid;
+  border-color:  #acacac;
+  width: 960px
+}
+
+
+.header a {
+  float: left;
+  color: #777777;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+ 
+.header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+  font: white;
+  background-color: #4aaaa5;
+}
+
+ 
+.header a:hover {
+  background-color: rgb(99, 148, 223);
+  color: #777777;
+}
+
+ 
+
+.header-right {
+  float: right;
+}
+
+ 
+
+img.profilepic {
+  float: left;
+  padding: 20px;
+}
+
+ 
+
+hr {
+  display: block;
+  margin-top: 0.5px;
+  margin-bottom: 0.5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+ 
+
+input.box {
+  width: 100%;
+}
+
+ 
+
+.footer {
+ position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #666666;
+  border-top: 7px solid;
+  border-color: #4aaaa5;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+
+ 
+
+/* navbar */
+navbar.navbar-default {
+    background-color: white;
+    border-color: #4aaaa5;
+}
+
+/* Title */
+.navbar-default .navbar-brand {
+  color: #4aaaa5;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #4aaaa5;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: white;
+}
+
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: white;
+}
+
+ 
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ 
+Img.highlight:hover {
+    border-color: #f1f1f1;
+}
+
+.bg-3 { 
+  background-color: #ffffff;
+  color: #555555;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
